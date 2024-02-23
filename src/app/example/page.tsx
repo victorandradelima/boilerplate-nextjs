@@ -1,4 +1,5 @@
-import Button from '@/components/atoms/Button'
+import { Button } from '@/components/ui/button'
+import { Input } from '@/components/ui/input'
 import Link from 'next/link'
 
 export default function Example() {
@@ -12,7 +13,10 @@ export default function Example() {
           mais sobre teste com snapshots, clicando aqui:{' '}
           <Link href="https://jestjs.io/docs/snapshot-testing">AQUI</Link>
         </p>
-        <Button className="block mt-[20px]">Não clique aqui</Button>
+        <Button variant="destructive" className="block mt-[20px] mb-4">
+          Não clique aqui
+        </Button>
+        <Input placeholder="Test" />
       </div>
     </main>
   )
