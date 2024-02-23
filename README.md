@@ -105,3 +105,10 @@ Para rodar teste foram configurados 3 comandos:
 `pnpm test:watch`: Mantém um monitoramento nas alterações do arquivos, e avisa quando algum teste for quebrado.
 
 `pnpm test:ci`: Roda uma teste de coverage, verificando todos os arquivos de teste e arquivos testáveis estão realmente com teste corretos
+
+## ShadSN/IU
+
+Foi configurado o ShadCN/UI para ajudar o processo de criação de componentes. Esta é uma biblioteca que permite adicionar em nosso proprio
+código, uma versão finalizada do componente escolhido.
+
+Saiba mais sobre o ShadCN/IU clicando [AQUI](https://ui.shadcn.com/)
